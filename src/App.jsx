@@ -1,4 +1,31 @@
+import logo from './images/logo.svg'
+import interactive from "./images/mobile/image-interactive.jpg"
+import deepearth from "./images/desktop/image-deep-earth.jpg"
+import mobiledeepearth from "./images/mobile/image-deep-earth.jpg"
 import { useState } from "react"
+import nightarcade from "./images/desktop/image-night-arcade.jpg"
+import mobilnightarcade from "./images/mobile/image-night-arcade.jpg" 
+import above from "./images/desktop/image-from-above.jpg" 
+import mobileabove from "./images/mobile/image-from-above.jpg"
+import pocket from "./images/desktop/image-pocket-borealis.jpg"
+import mobilepok from "./images/mobile/image-pocket-borealis.jpg"
+import grid from "./images/desktop/image-grid.jpg"
+import mobilgrid from "./images/mobile/image-grid.jpg" 
+import curiosity from "./images/desktop/image-curiosity.jpg"
+import mobilcuro from "./images/mobile/image-curiosity.jpg"
+import fish from "./images/mobile/image-fisheye.jpg"
+import mobilfish from "./images/mobile/image-fisheye.jpg"
+import fromabove from "./images/desktop/image-from-above.jpg"
+import mobilfromabove from "./images/mobile/image-from-above.jpg"
+import borialis from "./images/desktop/image-pocket-borealis.jpg"
+import mobilborialis from "./images/mobile/image-pocket-borealis.jpg"
+import soc from "./images/desktop/image-soccer-team.jpg"
+import mobilsoc from "./images/mobile/image-soccer-team.jpg"
+import twi from "./images/icon-twitter.svg"
+import insta from "./images/icon-instagram.svg"
+import face from "./images/icon-facebook.svg"
+import pin from "./images/icon-pinterest.svg"
+
 function App() {
 
   const [open, setOpen] = useState(false);
@@ -11,7 +38,7 @@ function App() {
       <div className="container max-w-6xl px-6 py-10 mx-auto ">
         
         <nav className="flex items-center justify-between text-white font-bold ">
-          <img src="src/images/logo.svg" alt="" />
+          <img src={logo} alt="" />
           <div className="hidden font-alata md:flex md:space-x-6  ">
             <div className="group">
             <a href="#">About</a>
@@ -71,7 +98,7 @@ function App() {
 
     <section id="features">
       <div className="container relative px-3 my-32 flex flex-col mx-auto text-gray-900 md:flex-row md:px-0 max-w-6xl ">
-        <img src="src/images/mobile/image-interactive.jpg" alt="" />
+        <img src={interactive} alt="" />
 
         <div className="bg-white md:absolute  md:right-0 md:py-20 md:top-50 md:pl-10 lg:right-20">
             <h2 className="max-w-lg uppercase text-center mt-10 mb-6 text-4xl text-gray-900 font-sans md:text-5xl md:mt-0 md:text-left ">the leader in interactive vr</h2>
@@ -101,9 +128,9 @@ function App() {
       </div>
           <div className="item-container ">
             <div className="group relative md:w-1/4 overflow-hidden">
-              <img src="src/images/desktop/image-deep-earth.jpg" alt="" className="hidden w-full md:block duration-200  group-hover:scale-110"/>
+              <img src={deepearth} alt="" className="hidden w-full md:block duration-200  group-hover:scale-110"/>
               
-              <img src="src/images/mobile/image-deep-earth.jpg" alt="" className="w-full md:hidden group-hover:scale-110 duration-200" />
+              <img src={mobiledeepearth} alt="" className="w-full md:hidden group-hover:scale-110 duration-200" />
 
               <div className="absolute top-0 right-0 bottom-0 left-0 bg-linear-to-b  from transparent to-gray-900 group-hover:from-gray-50 group-hover:to-white group-hover:opacity-70">
 
@@ -114,9 +141,9 @@ function App() {
             </div>
 
             <div className="group relative md:w-1/4 overflow-hidden">
-              <img src="src/images/desktop/image-night-arcade.jpg" alt="" className="hidden w-full md:block duration-200  group-hover:scale-110"/>
+              <img src={nightarcade} alt="" className="hidden w-full md:block duration-200  group-hover:scale-110"/>
               
-              <img src="src/images/mobile/image-night-arcade.jpg" alt="" className="w-full md:hidden group-hover:scale-110 duration-200" />
+              <img src={mobilnightarcade} alt="" className="w-full md:hidden group-hover:scale-110 duration-200" />
 
               <div className="absolute top-0 right-0 bottom-0 left-0 bg-linear-to-b  from transparent to-gray-900 group-hover:from-gray-50 group-hover:to-white group-hover:opacity-70">
 
@@ -127,9 +154,9 @@ function App() {
             </div>
 
             <div className="group relative md:w-1/4 overflow-hidden">
-              <img src="src/images/desktop/image-from-above.jpg" alt="" className="hidden w-full md:block duration-200  group-hover:scale-110"/>
+              <img src={above} alt="" className="hidden w-full md:block duration-200  group-hover:scale-110"/>
               
-              <img src="src/images/mobile/image-from-above.jpg" alt="" className="w-full md:hidden group-hover:scale-110 duration-200" />
+              <img src={mobileabove} alt="" className="w-full md:hidden group-hover:scale-110 duration-200" />
 
               <div className="absolute top-0 right-0 bottom-0 left-0 bg-linear-to-b  from transparent to-gray-900 group-hover:from-gray-50 group-hover:to-white group-hover:opacity-70">
 
@@ -140,9 +167,9 @@ function App() {
             </div>
 
             <div className="group relative md:w-1/4 overflow-hidden">
-              <img src="src/images/desktop/image-pocket-borealis.jpg" alt="" className="hidden w-full md:block duration-200  group-hover:scale-110"/>
+              <img src={pocket} alt="" className="hidden w-full md:block duration-200  group-hover:scale-110"/>
               
-              <img src="src/images/mobile/image-pocket-borealis.jpg" alt="" className="w-full md:hidden group-hover:scale-110 duration-200" />
+              <img src={mobilepok} alt="" className="w-full md:hidden group-hover:scale-110 duration-200" />
 
               <div className="absolute top-0 right-0 bottom-0 left-0 bg-linear-to-b  from transparent to-gray-900 group-hover:from-gray-50 group-hover:to-white group-hover:opacity-70">
 
@@ -153,9 +180,9 @@ function App() {
             </div>
 
             <div className="group relative md:w-1/4 overflow-hidden">
-              <img src="src/images/desktop/image-grid.jpg" alt="" className="hidden w-full md:block duration-200  group-hover:scale-110"/>
+              <img src={grid} alt="" className="hidden w-full md:block duration-200  group-hover:scale-110"/>
               
-              <img src="src/images/mobile/image-grid.jpg" alt="" className="w-full md:hidden group-hover:scale-110 duration-200" />
+              <img src={mobilgrid} alt="" className="w-full md:hidden group-hover:scale-110 duration-200" />
 
               <div className="absolute top-0 right-0 bottom-0 left-0 bg-linear-to-b  from transparent to-gray-900 group-hover:from-gray-50 group-hover:to-white group-hover:opacity-70">
 
@@ -167,10 +194,8 @@ function App() {
           </div>
           <div className="item-container mt-10">
             <div className="group relative md:w-1/4 overflow-hidden">
-              <img src="src/images/desktop/image-curiosity.jpg" alt="" className="hidden w-full md:block duration-200  group-hover:scale-110"/>
-              
-              <img src="src/images/mobile/image-curiosity.jpg" alt="" className="w-full md:hidden group-hover:scale-110 duration-200" />
-
+              <img src={curiosity} alt="" className="hidden w-full md:block duration-200  group-hover:scale-110"/>
+              <img src={mobilcuro} alt="" className="w-full md:hidden group-hover:scale-110 duration-200" />
               <div className="absolute top-0 right-0 bottom-0 left-0 bg-linear-to-b  from transparent to-gray-900 group-hover:from-gray-50 group-hover:to-white group-hover:opacity-70">
 
               </div>
@@ -180,9 +205,9 @@ function App() {
             </div>
 
             <div className="group relative md:w-1/4 overflow-hidden">
-              <img src="src/images/mobile/image-fisheye.jpg" alt="" className="hidden w-full md:block duration-200  group-hover:scale-110"/>
+              <img src={fish} alt="" className="hidden w-full md:block duration-200  group-hover:scale-110"/>
               
-              <img src="src/images/mobile/image-fisheye.jpg" alt="" className="w-full md:hidden group-hover:scale-110 duration-200" />
+              <img src={mobilfish} alt="" className="w-full md:hidden group-hover:scale-110 duration-200" />
 
               <div className="absolute top-0 right-0 bottom-0 left-0 bg-linear-to-b  from transparent to-gray-900 group-hover:from-gray-50 group-hover:to-white group-hover:opacity-70">
 
@@ -193,9 +218,9 @@ function App() {
             </div>
 
             <div className="group relative md:w-1/4 overflow-hidden">
-              <img src="src/images/desktop/image-from-above.jpg" alt="" className="hidden w-full md:block duration-200  group-hover:scale-110"/>
+              <img src= {fromabove} alt="" className="hidden w-full md:block duration-200  group-hover:scale-110"/>
               
-              <img src="src/images/mobile/image-from-above.jpg" alt="" className="w-full md:hidden group-hover:scale-110 duration-200" />
+              <img src={mobilfromabove} alt="" className="w-full md:hidden group-hover:scale-110 duration-200" />
 
               <div className="absolute top-0 right-0 bottom-0 left-0 bg-linear-to-b  from transparent to-gray-900 group-hover:from-gray-50 group-hover:to-white group-hover:opacity-70">
 
@@ -206,9 +231,9 @@ function App() {
             </div>
 
             <div className="group relative md:w-1/4 overflow-hidden">
-              <img src="src/images/desktop/image-pocket-borealis.jpg" alt="" className="hidden w-full md:block duration-200  group-hover:scale-110"/>
+              <img src= {borialis} alt="" className="hidden w-full md:block duration-200  group-hover:scale-110"/>
               
-              <img src="src/images/mobile/image-pocket-borealis.jpg" alt="" className="w-full md:hidden group-hover:scale-110 duration-200" />
+              <img src={mobilborialis} alt="" className="w-full md:hidden group-hover:scale-110 duration-200" />
 
               <div className="absolute top-0 right-0 bottom-0 left-0 bg-linear-to-b  from transparent to-gray-900 group-hover:from-gray-50 group-hover:to-white group-hover:opacity-70">
 
@@ -219,9 +244,9 @@ function App() {
             </div>
 
             <div className="group relative md:w-1/4 overflow-hidden">
-              <img src="src/images/desktop/image-soccer-team.jpg" alt="" className="hidden w-full md:block duration-200  group-hover:scale-110"/>
+              <img src={soc} alt="" className="hidden w-full md:block duration-200  group-hover:scale-110"/>
               
-              <img src="src/images/mobile/image-soccer-team.jpg" alt="" className="w-full md:hidden group-hover:scale-110 duration-200" />
+              <img src={mobilsoc} alt="" className="w-full md:hidden group-hover:scale-110 duration-200" />
 
               <div className="absolute top-0 right-0 bottom-0 left-0 bg-linear-to-b  from transparent to-gray-900 group-hover:from-gray-50 group-hover:to-white group-hover:opacity-70">
 
@@ -243,7 +268,7 @@ function App() {
       <div className="w-full flex flex-col md:flex-row md:justify-between">
       <div className="flex flex-col">{/**1st cont */}
           <div className="flex justify-center md:justify-start">
-            <img src="src/images/logo.svg" alt=""  />
+            <img src={logo} alt=""  />
           </div>
 
           <div className="text-gray-200 font-alata text-lg flex flex-col my-4 gap-5 items-center md:flex-row">
@@ -257,10 +282,10 @@ function App() {
 
       <div className="">
         <div className="flex justify-center items-center gap-4  md:justify-start">
-          <img src="src/images/icon-twitter.svg" alt="" />
-          <img src="src/images/icon-instagram.svg" alt="" />
-          <img src="src/images/icon-facebook.svg" alt="" />
-          <img src="src/images/icon-pinterest.svg" alt="" />
+          <img src={twi} alt="" />
+          <img src={insta} alt="" />
+          <img src={face} alt="" />
+          <img src={pin} alt="" />
           
         </div>
         <div className="font-bold text-gray-400 flex justify-center my-6 md:justify-start">
